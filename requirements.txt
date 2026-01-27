@@ -1,0 +1,9 @@
+torch
+transformers>=4.40.0
+sentence-transformers>=2.7.0
+streamlit>=1.35.0
+faiss-cpu
+numpy
+mlflow>=2.10.0
+accelerate
+pandas

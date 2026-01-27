@@ -1,0 +1,74 @@
+[
+  {
+    "text": "Artificial intelligence is transforming industries worldwide",
+    "lang": "en",
+    "title": "Document_0",
+    "id": 0
+  },
+  {
+    "text": "Machine learning algorithms power modern applications",
+    "lang": "en",
+    "title": "Document_1",
+    "id": 1
+  },
+  {
+    "text": "Natural language processing enables text understanding",
+    "lang": "en",
+    "title": "Document_2",
+    "id": 2
+  },
+  {
+    "text": "कृत्रिम बुद्धिमत्ता विश्वव्यापी परिवर्तन ला रही है",
+    "lang": "hi",
+    "title": "Document_3",
+    "id": 3
+  },
+  {
+    "text": "मशीन लर्निंग आधुनिक प्रौद्योगिकी को शक्ति देती है",
+    "lang": "hi",
+    "title": "Document_4",
+    "id": 4
+  },
+  {
+    "text": "प्राकृतिक भाषा प्रसंस्करण पाठ समझ को सक्षम बनाता है",
+    "lang": "hi",
+    "title": "Document_5",
+    "id": 5
+  },
+  {
+    "text": "কৃত্রিম বুদ্ধিমত্তা বিশ্বব্যাপী পরিবর্তন আনছে",
+    "lang": "bn",
+    "title": "Document_6",
+    "id": 6
+  },
+  {
+    "text": "মেশিন লার্নিং আধুনিক অ্যাপ্লিকেশনকে শক্তি দেয়",
+    "lang": "bn",
+    "title": "Document_7",
+    "id": 7
+  },
+  {
+    "text": "প্রাকৃতিক ভাষা প্রক্রিয়াকরণ পাঠ বোঝার সুবিধা দেয়",
+    "lang": "bn",
+    "title": "Document_8",
+    "id": 8
+  },
+  {
+    "text": "L'intelligence artificielle transforme les industries",
+    "lang": "fr",
+    "title": "Document_9",
+    "id": 9
+  },
+  {
+    "text": "L'apprentissage automatique alimente les applications modernes",
+    "lang": "fr",
+    "title": "Document_10",
+    "id": 10
+  },
+  {
+    "text": "Le traitement du langage naturel permet la compréhension du texte",
+    "lang": "fr",
+    "title": "Document_11",
+    "id": 11
+  }
+]
