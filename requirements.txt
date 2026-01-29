@@ -7,3 +7,4 @@ numpy
 mlflow>=2.10.0
 accelerate
 pandas
+tiktoken
