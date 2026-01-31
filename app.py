@@ -10,6 +10,19 @@ import time
 import pandas as pd
 from pathlib import Path
 
+import os
+import faiss
+import pickle
+
+if not os.path.exists("xnli_index.bin"):
+    raise RuntimeError("FAISS index missing. Run build_index.py first.")
+
+index = faiss.read_index("xnli_index.bin")
+
+with open("xnli_metadata.pkl", "rb") as f:
+    metadata = pickle.load(f)
+
+
 st.set_page_config(
     page_title="🌐 XNLI Multilingual RAG + MLflow",
     page_icon="🌐",
@@ -38,7 +51,7 @@ st.sidebar.success("MLflow: XNLI_RAG_Production")
 def load_rag_pipeline():
     embedder = SentenceTransformer("intfloat/multilingual-e5-base")
     generator = pipeline(
-        "text2text-generation",
+        "text-generation",
         model="google/mt5-base",
         device=0 if torch.cuda.is_available() else -1
     )
